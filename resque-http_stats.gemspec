@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["skv-headless@yandex.ru"]
   spec.summary       = "Add method to show resque statistic."
   spec.description   = "Very simple resque statistic."
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/skv-headless/resque-http_stats"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

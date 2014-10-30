@@ -11,7 +11,10 @@ module Resque
           pending:   info[:pending],
           workers: info[:workers],
           working: info[:working],
-          queues: Resque.queues.map { |q| Resque.size(q) }
+          queues: Resque.queues.inject({}) do |res, q|
+            res[q] = Resque.size(q)
+            res
+          end
       }}
 
       [

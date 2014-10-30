@@ -16,7 +16,7 @@ class HttpStats < MiniTest::Test
       "pending" => 0,
       "workers" => 0,
       "working" => 0,
-      "queues" => []
+      "queues" => {}
     }}
     assert_equal(expect, response)
   end
