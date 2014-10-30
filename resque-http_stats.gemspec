@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Resque::HttpStats::VERSION
   spec.authors       = ["skv"]
   spec.email         = ["skv-headless@yandex.ru"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "Add method to show resque statistic."
+  spec.description   = "Very simple resque statistic."
   spec.homepage      = ""
   spec.license       = "MIT"
 
